@@ -1,0 +1,82 @@
+body{
+	height: 665px;
+	background-image: url("fondo.png");
+}
+.menu{
+	width: 100%;
+	height: 20vh;
+	background-image: linear-gradient(rgba(0,0,0,0,0.75),rgba(0,0,0,0.75)),url();
+	background-size: cover;
+	background-position: center;
+}
+.menu2{
+	width: 85%;
+	margin: auto;
+	padding: 0pc 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo{
+	width: 120px;
+	cursor: pointer;
+}
+.menu2 ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+}
+.menu2 ul li a{
+	text-decoration: none;
+	color:#fff;
+	text-transform: uppercase;
+	color: black;
+}
+.precios{
+	align-content: center;
+	border: none;
+	width: 300px;
+	border-collapse:none;
+	opacity: 0.5;
+}
+
+
+
+.precios td {
+	border:none;
+	text-align: center;
+	background-color:  	#FFE4E1;
+
+}
+h1{
+	color: 	 	#708090;
+	  text-shadow: 
+    3px 3px 1px black,
+    5px 5px 2px gray,
+    8px 8px 3px white;
+    ;
+     letter-spacing: 15px;
+     text-align: center;
+     font-size: 30px;
+     opacity: 0.99999;
+}
+.moda{
+	width: 55%;
+	margin: auto;
+	padding: 0pc 3;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.moda1{
+	width: 250px;
+	cursor: pointer;
+}
+.moda2{
+	width: 250px;
+	cursor: pointer;
+}
+.moda3{
+	width: 250px;
+	cursor: pointer;
+}
